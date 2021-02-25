@@ -7,6 +7,9 @@ body{
 }
 
 .card-wrapper{
+  display: inline-block;
+  margin: 10px;
+  width: 320px;
   max-width: 380px;
   border: 2px solid transparent;
   outline: 2px solid rgb(168, 168, 168);
@@ -21,10 +24,6 @@ body{
 .card-content{
   padding: 0 10px 10px; /*Сверху 0, по бокам и внизу - 10px*/
   background-color: white;
-}
-.photo-wrapper{
-  
-  
 }
 .profile-picture{
   --photo-size: 120px;
