@@ -1,0 +1,62 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #5F9DA0;
+}
+
+.card-wrapper{
+  max-width: 380px;
+  border: 2px solid transparent;
+  outline: 2px solid rgb(168, 168, 168);
+
+  font-family: sans-serif;
+  text-align: center;
+}
+.card-header{
+  background-color: #E85B26;
+  height: 150px;
+}
+.card-content{
+  padding: 0 10px 10px; /*Сверху 0, по бокам и внизу - 10px*/
+  background-color: white;
+}
+.photo-wrapper{
+  
+  
+}
+.profile-picture{
+  --photo-size: 120px;
+
+  width: var(--photo-size);
+  height: var(--photo-size);
+
+  margin-top: calc(var(--photo-size)/2*-1);
+  margin-bottom: 10px;
+
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: top;
+}
+
+.card-btn{
+  margin: 10px 0;
+  background-color: white;
+  border: 1px solid lightgray;
+  padding: 6px 14px;
+}
+
+.user-card-name{
+  font-size: 2em;
+  line-height: 1.5em;
+}
+
+.small-text{
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  max-width: 80%;
+  margin: 0 auto;
+  font-size: 0.9em;
+  opacity: 0.7;
+}
